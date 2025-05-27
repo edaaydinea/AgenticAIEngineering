@@ -11,6 +11,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
   - [Course Overview](#course-overview)
     - [Week 1](#week-1)
       - [Day 1](#day-1)
+      - [Day 2](#day-2)
 
 ---
 
@@ -39,4 +40,28 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 
 - [day 1 notes.ipynb](./1_foundations/notes/day1.ipynb)
 - [day 1 lab.ipynb](./1_foundations/1_lab1.ipynb)
+
+#### Day 2
+
+**What I did today:**
+
+- Explored the concept of AI agents and agentic architecture, understanding that agentic AI involves LLMs controlling workflows, using tools, and exhibiting autonomy.
+- Differentiated between "workflows" (predefined paths) and "agents" (dynamic self-direction) within "agentic systems," based on Anthropic's classifications.
+- Learned about key hallmarks of agentic AI, including multiple LLM calls, tool usage, inter-LLM communication, LLM-based planners, and LLM autonomy.
+- Understood the importance of LLM autonomy in enabling adaptive and intelligent behavior for complex, multi-step tasks where the exact sequence of operations isn't known beforehand.
+- Studied five essential LLM workflow design patterns identified by Anthropic:
+  - **Prompt Chaining:** Sequential LLM calls for task decomposition.
+  - **Routing:** An LLM directing tasks to specialist LLMs.
+  - **Parallelization:** Code-driven concurrent task execution by multiple LLMs.
+  - **Orchestrator-Worker:** An LLM dynamically breaking down and synthesizing tasks for worker LLMs.
+  - **Evaluator-Optimizer (Validation Agents):** An LLM validating and providing iterative feedback on another LLM's output.
+- Recognized that many "workflow" patterns exhibit forms of autonomy typically associated with more flexible "agents," indicating a spectrum of capabilities.
+- Contrasted "agent" patterns (open-ended, dynamic, LLM plots its own path) with "workflow" patterns (structured, predefined steps).
+- Acknowledged the increased power of agent patterns for solving complex problems and the associated challenges of unpredictability (path, output, cost, completion).
+- Identified essential mitigation strategies for agentic systems: comprehensive monitoring (e.g., LangSmith) and software-defined guardrails to ensure safe and effective deployment.
+- Understood the core interaction loop of an agent: receiving input, performing actions on an environment, receiving feedback, and deciding subsequent actions.
+
+**Resources:**
+
+- [day 2 notes.ipynb](./1_foundations/notes/day2.ipynb)
 

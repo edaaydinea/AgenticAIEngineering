@@ -12,6 +12,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
     - [Week 1](#week-1)
       - [Day 1](#day-1)
       - [Day 2](#day-2)
+      - [Day 3](#day-3)
 
 ---
 
@@ -39,7 +40,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 **Resources:**
 
 - [day 1 notes.ipynb](./1_foundations/notes/day1.ipynb)
-- [day 1 lab.ipynb](./1_foundations/1_lab1.ipynb)
+- [day 1 lab.ipynb](./1_foundations/notebooks/1_lab1.ipynb)
 
 #### Day 2
 
@@ -64,4 +65,23 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 **Resources:**
 
 - [day 2 notes.ipynb](./1_foundations/notes/day2.ipynb)
+
+#### Day 3
+
+**What I did today:**
+
+- Gained hands-on experience interacting with a variety of Large Language Model (LLM) APIs, including OpenAI, Anthropic, Google Gemini, DeepSeek, and Groq.
+- Learned how to load API keys and instantiate clients for different LLM providers.
+- Implemented a workflow to send the same prompt (a nuanced question) to multiple LLMs to compare their responses and evaluate their intelligence.
+- Set up and utilized Olloma to run LLMs locally, including pulling models like Llama 3.2 and interacting with the local Ollama server endpoint.
+- Practiced collecting responses from different models and organizing them for comparison.
+- Developed a prompt to instruct an LLM (acting as a judge) to evaluate and rank the collected responses from various competitor LLMs based on clarity and strength of argument.
+- Processed the judge LLM's JSON output to display a ranked list of the competitor models.
+- Understood the practical application of using multiple models and an evaluator LLM to improve the quality and reliability of LLM-generated content, a common pattern in business projects where accuracy is critical.
+- Identified that the lab exercise demonstrated a combination of Prompt Chaining (generating a question, then answers, then evaluation) and an Evaluator-Optimizer pattern.
+
+**Resources:**
+
+- [2_lab2.ipynb](./1_foundations/notebooks/2_lab2.ipynb)
+- [day 3 notes.ipynb](./1_foundations/notes/day3.ipynb)
 

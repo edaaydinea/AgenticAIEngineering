@@ -9,18 +9,19 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 - [Master AI Agentic Engineering – Build Autonomous AI Agents](#master-ai-agentic-engineering--build-autonomous-ai-agents)
   - [Table of Contents](#table-of-contents)
   - [Course Overview](#course-overview)
-    - [Week 1](#week-1)
-      - [Day 1](#day-1)
-      - [Day 2](#day-2)
-      - [Day 3](#day-3)
+    - [Week 1 - Foundations of AI Agent Engineering](#week-1---foundations-of-ai-agent-engineering)
+      - [Day 1 - Environment Setup and First Steps with Agentic Workflows](#day-1---environment-setup-and-first-steps-with-agentic-workflows)
+      - [Day 2 - Understanding Agentic Architecture and Design Patterns](#day-2---understanding-agentic-architecture-and-design-patterns)
+      - [Day 3 - Multi-Model Interaction and Evaluation](#day-3---multi-model-interaction-and-evaluation)
+      - [Day 4 - Building a Personal AI Assistant with Evaluation Loop](#day-4---building-a-personal-ai-assistant-with-evaluation-loop)
 
 ---
 
 ## Course Overview
 
-### Week 1
+### Week 1 - Foundations of AI Agent Engineering
 
-#### Day 1
+#### Day 1 - Environment Setup and First Steps with Agentic Workflows
 
 **What I did today:**
 
@@ -42,7 +43,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 - [day 1 notes.ipynb](./1_foundations/notes/day1.ipynb)
 - [day 1 lab.ipynb](./1_foundations/notebooks/1_lab1.ipynb)
 
-#### Day 2
+#### Day 2 - Understanding Agentic Architecture and Design Patterns
 
 **What I did today:**
 
@@ -66,7 +67,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 
 - [day 2 notes.ipynb](./1_foundations/notes/day2.ipynb)
 
-#### Day 3
+#### Day 3 - Multi-Model Interaction and Evaluation
 
 **What I did today:**
 
@@ -84,4 +85,23 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 
 - [2_lab2.ipynb](./1_foundations/notebooks/2_lab2.ipynb)
 - [day 3 notes.ipynb](./1_foundations/notes/day3.ipynb)
+
+#### Day 4 - Building a Personal AI Assistant with Evaluation Loop
+
+**What I did today:**
+
+- Developed a personal AI assistant with a Gradio web interface, designed to answer questions based on personal background information.
+- Extracted text from a LinkedIn profile PDF using the `pypdf` library and combined it with a text-based summary to create a comprehensive context for the LLM.
+- Programmed the AI assistant to respond "in character" (e.g., as "Ed Donner") using the provided personal documents.
+- Implemented an LLM-based evaluator using a locally run Ollama model (`llama3.2`) to assess the quality and acceptability of the assistant's responses.
+- Utilized Pydantic to define a structured format for the evaluator's output, ensuring consistent feedback (is_acceptable, feedback).
+- Created an iterative refinement loop (Evaluator-Optimizer pattern): if the initial response was rejected by the evaluator, the assistant would regenerate the response, taking the evaluator's feedback into account.
+- Applied Prompt Chaining by structuring the workflow: user interaction, initial response generation, evaluation, and potential response regeneration.
+- Gained experience with building interactive AI applications using Gradio and integrating multiple LLM services (OpenAI for primary responses, Ollama for evaluation) in a single workflow.
+
+**Resources:**
+
+- [3_lab3.ipynb](./1_foundations/notebooks/3_lab3.ipynb)
+- [day4.ipynb](./1_foundations/notes/day4.ipynb)
+
 

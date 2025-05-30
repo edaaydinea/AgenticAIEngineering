@@ -14,6 +14,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
       - [Day 2 - Understanding Agentic Architecture and Design Patterns](#day-2---understanding-agentic-architecture-and-design-patterns)
       - [Day 3 - Multi-Model Interaction and Evaluation](#day-3---multi-model-interaction-and-evaluation)
       - [Day 4 - Building a Personal AI Assistant with Evaluation Loop](#day-4---building-a-personal-ai-assistant-with-evaluation-loop)
+      - [Day 5 - Tool Integration and Deploying a Personal AI Assistant](#day-5---tool-integration-and-deploying-a-personal-ai-assistant)
 
 ---
 
@@ -104,4 +105,19 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 - [3_lab3.ipynb](./1_foundations/notebooks/3_lab3.ipynb)
 - [day4.ipynb](./1_foundations/notes/day4.ipynb)
 
+#### Day 5 - Tool Integration and Deploying a Personal AI Assistant
 
+**What I did today:**
+
+- Integrated "Pushover" to enable the AI assistant to send real-time push notifications.
+- Defined and implemented tools for the LLM, specifically `record_user_details` (to capture contact information) and `record_unknown_question` (to log questions the assistant couldn't answer).
+- Developed the logic within the chat application to handle LLM tool calls, allowing the assistant to execute these predefined functions.
+- Enhanced the personal AI assistant ("Professionally You!" project) by incorporating these tool-using capabilities, making it more interactive and functional.
+- Updated the system prompt to instruct the LLM on when and how to use the available tools.
+- Modified the core chat function to manage the tool-calling loop: sending tool definitions to the LLM, processing its requests to use tools, executing the tools, and sending results back to the LLM.
+- Learned and documented the process for deploying the Gradio-based AI assistant to HuggingFace Spaces, including managing API keys and other secrets.
+
+**Resources:**
+
+- [4_lab4.ipynb](./1_foundations/notebooks/4_lab4.ipynb)
+- [day5.ipynb](./1_foundations/notes/day5.ipynb)

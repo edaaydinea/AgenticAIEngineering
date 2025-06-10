@@ -15,6 +15,8 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
       - [Day 3 - Multi-Model Interaction and Evaluation](#day-3---multi-model-interaction-and-evaluation)
       - [Day 4 - Building a Personal AI Assistant with Evaluation Loop](#day-4---building-a-personal-ai-assistant-with-evaluation-loop)
       - [Day 5 - Tool Integration and Deploying a Personal AI Assistant](#day-5---tool-integration-and-deploying-a-personal-ai-assistant)
+    - [Week 2 - OpenAI Agents SDK](#week-2---openai-agents-sdk)
+      - [Day 6 - Introduction to OpenAI Agents SDK and Asynchronous Python](#day-6---introduction-to-openai-agents-sdk-and-asynchronous-python)
 
 ---
 
@@ -121,3 +123,20 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 
 - [4_lab4.ipynb](./1_foundations/notebooks/4_lab4.ipynb)
 - [day5.ipynb](./1_foundations/notes/day5.ipynb)
+
+### Week 2 - OpenAI Agents SDK
+
+#### Day 6 - Introduction to OpenAI Agents SDK and Asynchronous Python
+
+**What I did today:**
+
+- Established a foundational understanding of asynchronous Python, including the `asyncio` event loop and the use of `async`/`await` for managing I/O-bound tasks in agentic systems.
+- Learned the core concepts of the OpenAI Agents SDK, differentiating its "unopinionated" philosophy from other frameworks and understanding the roles of the `Agent`, `Runner`, and `Trace` classes.
+- Gained hands-on experience by instantiating a basic AI agent, defining its system prompt and model, and correctly executing it using the asynchronous `await Runner.run()` method.
+- Implemented observability for agent workflows by using the `with Trace(...)` context manager to log interactions, enabling debugging and monitoring via the OpenAI platform.
+- Outlined a disciplined "vibe coding" methodology for LLM-assisted development, incorporating best practices like incremental generation, cross-model verification, and AI-powered code validation.
+- Successfully completed the conceptual overview of the Agents SDK, preparing for the practical application of building a multi-agent system in the upcoming sessions.
+
+**Resources:**
+
+- [day1.ipynb](./2_openai/notes/day1.ipynb)

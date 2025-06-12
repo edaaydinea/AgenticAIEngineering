@@ -15,7 +15,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
       - [Day 3 - Multi-Model Interaction and Evaluation](#day-3---multi-model-interaction-and-evaluation)
       - [Day 4 - Building a Personal AI Assistant with Evaluation Loop](#day-4---building-a-personal-ai-assistant-with-evaluation-loop)
       - [Day 5 - Tool Integration and Deploying a Personal AI Assistant](#day-5---tool-integration-and-deploying-a-personal-ai-assistant)
-    - [Week 2 - OpenAI Agents SDK](#week-2---openai-agents-sdk)
+    - [Week 2 - OpenAI Agents SDK: Asynchronous Operations, Multi-Agent Architectures, Tool Usage, Heterogeneous Models, and Input Guardrails](#week-2---openai-agents-sdk-asynchronous-operations-multi-agent-architectures-tool-usage-heterogeneous-models-and-input-guardrails)
       - [Day 6 - Introduction to OpenAI Agents SDK and Asynchronous Python](#day-6---introduction-to-openai-agents-sdk-and-asynchronous-python)
       - [Day 7 - Building AI Sales Agents and Tool Usage](#day-7---building-ai-sales-agents-and-tool-usage)
       - [Day 8 - Heterogeneous Agents, Structured Outputs, and Input Guardrails](#day-8---heterogeneous-agents-structured-outputs-and-input-guardrails)
@@ -126,7 +126,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 - [4_lab4.ipynb](./1_foundations/notebooks/4_lab4.ipynb)
 - [day5.ipynb](./1_foundations/notes/day5.ipynb)
 
-### Week 2 - OpenAI Agents SDK
+### Week 2 - OpenAI Agents SDK: Asynchronous Operations, Multi-Agent Architectures, Tool Usage, Heterogeneous Models, and Input Guardrails
 
 #### Day 6 - Introduction to OpenAI Agents SDK and Asynchronous Python
 

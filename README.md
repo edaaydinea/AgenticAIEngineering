@@ -18,6 +18,7 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
     - [Week 2 - OpenAI Agents SDK](#week-2---openai-agents-sdk)
       - [Day 6 - Introduction to OpenAI Agents SDK and Asynchronous Python](#day-6---introduction-to-openai-agents-sdk-and-asynchronous-python)
       - [Day 7 - Building AI Sales Agents and Tool Usage](#day-7---building-ai-sales-agents-and-tool-usage)
+      - [Day 8 - Heterogeneous Agents, Structured Outputs, and Input Guardrails](#day-8---heterogeneous-agents-structured-outputs-and-input-guardrails)
 
 ---
 
@@ -164,3 +165,19 @@ This course is your comprehensive guide to mastering agentic AI engineering, foc
 
 - [day2.ipynb](./2_openai/notes/day2.ipynb)
 - [2_lab2.ipynb](./2_openai/notebooks/2_lab2.ipynb)
+
+#### Day 8 - Heterogeneous Agents, Structured Outputs, and Input Guardrails
+
+**What I did today:**
+
+- Integrated multiple non-OpenAI language models, including Gemini, Deep Seek, and Llama 3, into the OpenAI Agents SDK by configuring clients with model-specific, OpenAI-compatible API endpoints.
+- Developed a heterogeneous multi-agent system by instantiating separate agents, each powered by a different underlying model, to leverage their unique capabilities for distinct tasks within a single workflow.
+- Implemented structured outputs using Pydantic classes to enforce a reliable and machine-readable data format for agent responses, ensuring predictable and consistent data handling.
+- Designed and deployed LLM-powered input guardrails to act as a dynamic safety layer, successfully preventing agent execution when prompts contained sensitive or non-compliant data like personally identifiable information (PII).
+- Analyzed and debugged agent behavior, leveraging execution traces to understand the SDK's asynchronous parallel processing and diagnose issues like non-deterministic loops.
+- Explored solutions for integrating models without native OpenAI-compatible endpoints, identifying proxy services like OpenRouter as a viable workaround for incorporating models such as Anthropic's Claude.
+- Practically demonstrated the guardrail exception handling mechanism, confirming that a triggered tripwire correctly halts the agent workflow by design to ensure data safety and policy enforcement.
+
+**Resources:**
+
+- [day3.ipynb](./2_openai/notes/day3.ipynb)
